@@ -1,0 +1,59 @@
+/* Login.css */
+
+.custom-card {
+    background-color: #ffffff;
+    border: 1px solid #28a745;
+  }
+  
+  .custom-title {
+    color: #28a745;
+  }
+  
+  .custom-label {
+    color: #495057;
+  }
+  
+  .custom-input {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #495057;
+  }
+  
+  .custom-button {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .custom-text {
+    color: #495057;
+  }
+  /* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.webp?b=1&s=170667a&w=0&k=20&c=P3jIQq8gVqlXjd4kP2OrXYyzqEXSWCwwYtwrd81psDY=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+  }
+  
+  .custom-card {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #28a745;
+  }
+  
+  /* Other existing styles remain the same */
+  
